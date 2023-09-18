@@ -10,7 +10,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="220dp"
+        android:layout_height="269dp"
         app:srcCompat="@drawable/help_shape"
         android:layout_gravity="bottom"
         tools:ignore="ContentDescription"/>
@@ -19,7 +19,7 @@
         android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="168dp"
+        android:layout_marginBottom="217dp"
         tools:text="Game result!"
         android:textAllCaps="true"
         android:fontFamily="@font/russo_one"
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
-        android:layout_marginBottom="104dp"
+        android:layout_marginBottom="149dp"
         android:paddingHorizontal="16dp"
         android:paddingVertical="8dp"
         android:textAllCaps="true"
@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="27dp"
-        android:layout_marginBottom="104dp"
+        android:layout_marginBottom="149dp"
         android:paddingHorizontal="16dp"
         android:paddingVertical="8dp"
         android:textAllCaps="true"
@@ -64,7 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginBottom="15dp">
+        android:layout_marginBottom="60dp">
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/home"
