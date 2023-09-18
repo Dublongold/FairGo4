@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageButton
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/next"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:layout_margin="12dp"
+    android:scaleType="centerCrop"
+    android:foreground="@drawable/button_8_ripple"
+    android:background="#0000"
+    app:srcCompat="@drawable/next_button"/>

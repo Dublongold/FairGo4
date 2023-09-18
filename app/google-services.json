@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "163816120534",
+    "project_id": "fairgo4-cbdfc",
+    "storage_bucket": "fairgo4-cbdfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163816120534:android:871e17d7a833528ae8e977",
+        "android_client_info": {
+          "package_name": "io.super_game.for_the_worthy.fairgo4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm2U2nChbe-owo9ZdfDlZGjsMDKQ88lFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

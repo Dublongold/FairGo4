@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="#0000"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/pick01"/>
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="#0000"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/pick02"/>
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="#0000"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/pick03"/>
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="#0000"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/pick04"/>
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="#0000"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/pick05"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

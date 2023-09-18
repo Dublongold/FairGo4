@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation_graph"
+    app:startDestination="@id/decision">
+
+    <fragment
+        android:id="@+id/decision"
+        android:name="io.super_game.for_the_worthy.fairgo4.points.Decision"
+        android:label="Decision"
+        tools:layout="@layout/decision">
+        <action
+            android:id="@+id/start_familiarization"
+            app:destination="@id/familiarization"
+            app:popUpTo="@id/main_navigation_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <dialog
+        android:id="@+id/advice"
+        android:name="io.super_game.for_the_worthy.fairgo4.points.Advice"
+        android:label="Advice"
+        tools:layout="@layout/advice"/>
+    <fragment
+        android:id="@+id/choice"
+        android:name="io.super_game.for_the_worthy.fairgo4.points.Choice"
+        android:label="Choice"
+        tools:layout="@layout/choice" >
+        <action
+            android:id="@+id/meet_fate"
+            app:destination="@id/fate" />
+    </fragment>
+    <fragment
+        android:id="@+id/familiarization"
+        android:name="io.super_game.for_the_worthy.fairgo4.points.Familiarization"
+        android:label="Familiarization"
+        tools:layout="@layout/familiarization">
+        <action
+            android:id="@+id/you_need_choose"
+            app:destination="@id/choice" />
+        <action
+            android:id="@+id/get_advice"
+            app:destination="@id/advice" />
+        <action
+            android:id="@+id/read_importance"
+            app:destination="@id/importance" />
+    </fragment>
+    <fragment
+        android:id="@+id/fate"
+        android:name="io.super_game.for_the_worthy.fairgo4.points.Fate"
+        android:label="Fate"
+        tools:layout="@layout/fate">
+        <action
+            android:id="@+id/get_advice"
+            app:destination="@id/advice" />
+        <action
+            android:id="@+id/what_next"
+            app:destination="@id/nextStage" />
+    </fragment>
+    <dialog
+        android:id="@+id/nextStage"
+        android:name="io.super_game.for_the_worthy.fairgo4.points.NextStage"
+        android:label="NextStage"
+        tools:layout="@layout/next_stage">
+    </dialog>
+    <fragment
+        android:id="@+id/importance"
+        android:name="io.super_game.for_the_worthy.fairgo4.points.Importance"
+        android:label="Importance"
+        tools:layout="@layout/importance"/>
+</navigation>

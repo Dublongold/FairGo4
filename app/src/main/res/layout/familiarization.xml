@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/choice_button"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/play"
+        android:textColor="@color/jungle"
+        android:fontFamily="@font/russo_one"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_enabled_shape"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/importance_button"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="71dp"
+        android:text="@string/privacy_policy"
+        android:textColor="@color/jungle"
+        android:fontFamily="@font/russo_one"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_enabled_shape"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/advice_button"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="137dp"
+        android:text="@string/how_to_play"
+        android:textColor="@color/jungle"
+        android:fontFamily="@font/russo_one"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_enabled_shape"/>
+
+
+</FrameLayout>
