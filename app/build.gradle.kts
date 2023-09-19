@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "io.super_game.for_the_worthy.fairgo4"
+    namespace = "com.koalagames.playfair.goapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "io.super_game.for_the_worthy.fairgo4"
+        applicationId = "com.koalagames.playfair.goapp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -54,5 +54,7 @@ dependencies {
     implementation("com.google.firebase:firebase-config-ktx")
     implementation("com.google.firebase:firebase-analytics-ktx")
     implementation("com.google.firebase:firebase-crashlytics-ktx")
+
+    implementation("com.onesignal:OneSignal:[5.0.0, 5.99.99]")
 
 }

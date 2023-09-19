@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/decision"
-        android:name="io.super_game.for_the_worthy.fairgo4.points.Decision"
+        android:name="com.koalagames.playfair.goapp.points.Decision"
         android:label="Decision"
         tools:layout="@layout/decision">
         <action
@@ -18,12 +18,12 @@
     </fragment>
     <dialog
         android:id="@+id/advice"
-        android:name="io.super_game.for_the_worthy.fairgo4.points.Advice"
+        android:name="com.koalagames.playfair.goapp.points.Advice"
         android:label="Advice"
         tools:layout="@layout/advice"/>
     <fragment
         android:id="@+id/choice"
-        android:name="io.super_game.for_the_worthy.fairgo4.points.Choice"
+        android:name="com.koalagames.playfair.goapp.points.Choice"
         android:label="Choice"
         tools:layout="@layout/choice" >
         <action
@@ -32,7 +32,7 @@
     </fragment>
     <fragment
         android:id="@+id/familiarization"
-        android:name="io.super_game.for_the_worthy.fairgo4.points.Familiarization"
+        android:name="com.koalagames.playfair.goapp.points.Familiarization"
         android:label="Familiarization"
         tools:layout="@layout/familiarization">
         <action
@@ -47,7 +47,7 @@
     </fragment>
     <fragment
         android:id="@+id/fate"
-        android:name="io.super_game.for_the_worthy.fairgo4.points.Fate"
+        android:name="com.koalagames.playfair.goapp.points.Fate"
         android:label="Fate"
         tools:layout="@layout/fate">
         <action
@@ -59,13 +59,13 @@
     </fragment>
     <dialog
         android:id="@+id/nextStage"
-        android:name="io.super_game.for_the_worthy.fairgo4.points.NextStage"
+        android:name="com.koalagames.playfair.goapp.points.NextStage"
         android:label="NextStage"
         tools:layout="@layout/next_stage">
     </dialog>
     <fragment
         android:id="@+id/importance"
-        android:name="io.super_game.for_the_worthy.fairgo4.points.Importance"
+        android:name="com.koalagames.playfair.goapp.points.Importance"
         android:label="Importance"
         tools:layout="@layout/importance"/>
 </navigation>
