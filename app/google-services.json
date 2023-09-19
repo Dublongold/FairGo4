@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "603060110189",
-    "project_id": "fairgo-games-dc2a7",
-    "storage_bucket": "fairgo-games-dc2a7.appspot.com"
+    "project_number": "419942866213",
+    "project_id": "fair-go-casino-games",
+    "storage_bucket": "fair-go-casino-games.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:603060110189:android:1efc15e76ffafad400d064",
+        "mobilesdk_app_id": "1:419942866213:android:98391f88363b097bac0ecc",
         "android_client_info": {
           "package_name": "com.koalagames.playfair.goapp"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBMeuhc15puXQasLed8h6kNO9QbAbz7tOQ"
+          "current_key": "AIzaSyBWKQgkXhsAot9CsQFwH02KG61W-5TEzTg"
         }
       ],
       "services": {
